@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Data files
+data/
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Results and outputs
+results/
+outputs/
+logs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
